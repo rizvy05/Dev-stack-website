@@ -30,83 +30,44 @@ import logo from '../assets/logo-text.png'
   <svg aria-label="LinkedIn logo" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path fill="white" d="M26.111,3H5.889c-1.595,0-2.889,1.293-2.889,2.889V26.111c0,1.595,1.293,2.889,2.889,2.889H26.111c1.595,0,2.889-1.293,2.889-2.889V5.889c0-1.595-1.293-2.889-2.889-2.889ZM10.861,25.389h-3.877V12.87h3.877v12.519Zm-1.957-14.158c-1.267,0-2.293-1.034-2.293-2.31s1.026-2.31,2.293-2.31,2.292,1.034,2.292,2.31-1.026,2.31-2.292,2.31Zm16.485,14.158h-3.858v-6.571c0-1.802-.685-2.809-2.111-2.809-1.551,0-2.362,1.048-2.362,2.809v6.571h-3.718V12.87h3.718v1.686s1.118-2.069,3.775-2.069,4.556,1.621,4.556,4.975v7.926Z" fillRule="evenodd"></path></svg>
   Login with LinkedIn
 </button>
-            </div>
-          </div>
+    </div>
+    </div>
 
 
 
-          <div>
-            <h4 className="text-xs font-bold text-gray-900 uppercase tracking-wider mb-4">
-              Product
-            </h4>
-            <ul className="space-y-3 text-sm text-gray-500">
-              <li>
-                <a href="#home" className="hover:text-pink-600 transition-colors">
-                  Home
-                </a>
-              </li>
-              <li>
-                <a href="#tech" className="hover:text-pink-600 transition-colors">
-                  Technologies
-                </a>
-              </li>
-              <li>
-                <a href="#projects" className="hover:text-pink-600 transition-colors">
-                  Projects
-                </a>
-              </li>
-            </ul>
-          </div>
+<div>
+<h4 className="text-xs font-bold text-gray-900 uppercase tracking-wider mb-4">Product </h4>
+    <ul className="space-y-3 text-sm text-gray-500">
+            <li><a href="#home" className="hover:text-pink-600 transition-colors">Home</a></li>
+            <li><a href="#tech" className="hover:text-pink-600 transition-colors"> Technologies </a></li>
+            <li><a href="#projects" className="hover:text-pink-600 transition-colors">Projects</a></li>
+    </ul>
+</div>
 
-          <div>
-            <h4 className="text-xs font-bold text-gray-900 uppercase tracking-wider mb-4">
-              Company
-            </h4>
-            <ul className="space-y-3 text-sm text-gray-500">
-              <li>
-                <a href="#about" className="hover:text-pink-600 transition-colors">
-                  About
-                </a>
-              </li>
-              <li>
-                <a href="#contacts" className="hover:text-pink-600 transition-colors">
-                  Contact
-                </a>
-              </li>
-              <li>
-                <a href="#career" className="hover:text-pink-600 transition-colors">
-                  Careers
-                </a>
-              </li>
-            </ul>
-          </div>
+<div>
+<h4 className="text-xs font-bold text-gray-900 uppercase tracking-wider mb-4">Company </h4>
+<ul className="space-y-3 text-sm text-gray-500">
+    <li><a href="#about" className="hover:text-pink-600 transition-colors"> About</a></li>
+    <li> <a href="#contacts" className="hover:text-pink-600 transition-colors">Contact</a></li>
+    <li><a href="#career" className="hover:text-pink-600 transition-colors">Careers</a></li>
+</ul>
+</div>
 
         
-          <div>
-            <h4 className="text-xs font-bold text-gray-900 uppercase tracking-wider mb-4">
-              Legal
-            </h4>
-            <ul className="space-y-3 text-sm text-gray-500">
-              <li>
-                <a href="#privacy" className="hover:text-pink-600 transition-colors">
-                  Privacy Policy
-                </a>
-              </li>
-              <li>
-                <a href="#terms" className="hover:text-pink-600 transition-colors">
-                  Terms of Service
-                </a>
-              </li>
-            </ul>
-          </div>
+<div>
+    <h4 className="text-xs font-bold text-gray-900 uppercase tracking-wider mb-4">Legal</h4>
+    <ul className="space-y-3 text-sm text-gray-500">
+    <li> <a href="#privacy" className="hover:text-pink-600 transition-colors">Privacy Policy</a></li>
+    <li> <a href="#terms" className="hover:text-pink-600 transition-colors"> Terms of Service </a></li></ul>
+</div>
         </div>
 
       
 <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-gray-400">
           <p>© 2026 DevStack. All rights reserved.</p>
           <div className="flex gap-6">
-            <a href="#privacy" className="hover:text-gray-600 transition-colors">Privacy</a>
-            <a href="#terms" className="hover:text-gray-600 transition-colors">Terms</a>
+    <a href="#privacy" className="hover:text-gray-600 transition-colors">Privacy</a>
+    <a href="#terms" className="hover:text-gray-600 transition-colors">Terms</a>
           </div>
         </div>
       </div>
