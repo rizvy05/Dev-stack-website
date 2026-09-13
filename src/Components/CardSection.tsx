@@ -1,7 +1,7 @@
 import React, { use } from 'react';
 import CardDesign from './CardDesign';
 import type { Technology } from './CardType';
-
+import StakeItems from './StackItems'
 interface CardProps {
   cardPromise: Promise<Technology[]>;
 }
@@ -20,7 +20,17 @@ const CardSection = ({ cardPromise }: CardProps) => {
     Pick one technology per category to build your ideal stack.
   </p>
 </div>
-      <CardDesign tech={tech} />
+<div className="grid grid-cols-1 lg:grid-cols-4 gap-8 items-start">
+  {/* Left Part: Card Collection */}
+  <div className="lg:col-span-3">
+    <CardDesign tech={tech} />
+  </div>
+
+  {/* Right Part: Selected Stack */}
+  <div className="lg:col-span-1 sticky top-20">
+    <StakeItems />
+  </div>
+</div>
     </div>
   );
 };
